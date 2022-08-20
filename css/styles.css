@@ -32,8 +32,32 @@ body{
 }
 
 .container{
-  width:1200px;
-  
+  display:flex;
+  min-width:1200px;
+  padding:15px;
+}
+
+.nav-container{
+  display: flex;
+  height:80px;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.navbar-list{
+  display: flex;
+  align-items: center;
+}
+
+.navbar{
+  display:flex;
+ 
+
+}
+
+.nav-contacts{
+  display: flex;
 }
 
 .logo{
@@ -98,6 +122,21 @@ body{
   letter-spacing: 0.02em;
 }
 
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width:1600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-button{
+  display: flex;
+  width: 200px;
+  height: 50px;
+}
+
 .hero{
   background-color: #2F303A;
 }
@@ -123,6 +162,11 @@ h1{
   letter-spacing: 0.06em;
   border-radius: 4px;
   border: none;
+}
+
+.group-container{
+  display-flex;
+  
 }
 
 .group-heading{
