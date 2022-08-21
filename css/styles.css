@@ -165,8 +165,16 @@ h1{
 }
 
 .group-container{
-  display-flex;
-  
+  display:flex;
+  justify-content: center;
+  height: 95px;
+  min-width: 1170px;
+  padding: 94px 215px 100px 215px; 
+
+}
+
+.group{
+  display: flex;
 }
 
 .group-heading{
@@ -181,6 +189,22 @@ h1{
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--sub-text-color)
+}
+
+.we-do-container{
+  display-flex;
+  flex-direction: column;
+  width: 1170px;
+  height: 386px;
+  margin: 100px 215px 94px 215px;
+
+}
+
+.section-heading,
+.do {
+  display:flex;
+  justify-content: center;
+  align-items:center;
 }
 
 .section-heading{
