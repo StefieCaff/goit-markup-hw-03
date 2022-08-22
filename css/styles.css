@@ -42,6 +42,10 @@ body{
   padding-bottom:94px;
 }
 
+.header{
+  border-bottom: 1px solid #ECECEC;
+}
+
 .nav-container{
   display: flex;
   height:80px;
