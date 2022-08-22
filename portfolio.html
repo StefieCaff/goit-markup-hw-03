@@ -18,59 +18,60 @@
 
 <body>
 
-    header class="header">
-    <div class="conrtainer nav-container">
-      <nav class="navbar-list">
-        <a class="logo" href="index.html">WebStudios</a>
-        <ul class="navbar">
-          <li>
-            <a class="navbar-link current-link" href="./index.html">Studio</a>
-          </li>
-          <li>
-            <a class="navbar-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a class="navbar-link" href="#">Contacts</a>
-          </li>
+    <header class="header">
+      <div class="conrtainer nav-container">
+        <nav class="navbar-list">
+          <a class="logo" href="index.html">WebStudios
+          </a>
+          <ul class="navbar">
+            <li>
+              <a class="navbar-link" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="navbar-link current-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="navbar-link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+    
+        <ul class="nav-contacts">
+          <li> <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+    
+          <li> <a class="contacts" href="tel:+38 096 111 11 11"> +38 096 111 11 11</a> </li>
         </ul>
-      </nav>
-    
-      <ul class="nav-contacts">
-        <li> <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-    
-        <li> <a class="contacts" href="tel:+38 096 111 11 11"> +38 096 111 11 11</a> </li>
-      </ul>
-    </div>
+      </div>
     </header>
 
     <main>
 
         <section class="section">
-            <div class="container">
+            <div class="container container-portfolio">
               <ul class="filters">    
-                <li>
+                <li class="filter-item">
                   <button class="filter-button filter-current" type="button">All</button>
                 </li>
-                <li>
+                <li class="filter-item">
                   <button class="filter-button" type="button">Web-sites</button>
                 </li>
-                <li>
+                <li class="filter-item">
                   <button class="filter-button" type="button">Apps</button>
                 </li>
-                <li>
+                <li class="filter-item">
                   <button class="filter-button" type="button">Design</button>
                 </li>
-                <li>
+                <li class="filter-item">
                   <button class="filter-button" type="button">Marketing</button>
                 </li>
               </ul>
 
               <ul class="projects">
-                <li>
+                <li class="projects-item">
                   <img src="./images/technoduck.jpg"
                          alt=" an open laptop on a desk with staff pictures on the screen"
                          width="370"/>
-                  <div>
+                  <div class="projects-description">
                     <h3 class="projects-heading">
                       Technoduck
                     </h3>
@@ -79,7 +80,7 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-item">
                   <img src="./images/postervs.jpg"
                          alt="Poste of two basketball players doing fancy moves with some fun colors"
                          width="370"/>
@@ -92,7 +93,7 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-item">
                   <img src="./images/seafood.jpg"
                          alt="logo of fish with restaurant name layed over it"
                          width="370"/>
@@ -105,7 +106,7 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-item">
                   <img src="./images/pprime.jpg"
                          alt="image of full coverage all black headphones close up against an off-white background"
                          width="370"/>
@@ -118,7 +119,7 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-item">
                   <img src="./images/pboxes.jpg"
                          alt="two fancy packaging boxes on an off-white surface"
                          width="370"/>
@@ -131,7 +132,7 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-item">
                   <img src="./images/inspiration.jpg"
                     alt="a desktop screen on a desk with an attractive website pulled up on screen"
                     width="370"/>
@@ -144,7 +145,7 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-item">
                   <img src="./images/limited.jpg"
                     alt="an open magazine on an off-white background open to an article with a beautiful layout"
                     width="370"/>
@@ -157,7 +158,7 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-item">
                   <img src="./images/plab.jpg"
                     alt="a close up mock up for a rectangular/hexagonal shaped label closeup"
                     width="370"/>
@@ -170,7 +171,7 @@
                     </p>
                   </div>
                 </li>
-                <li>
+                <li class="projects-item">
                   <img src="./images/business.jpg"
                     alt="a laptop with hands typing and a stack of papers against a grey surface"
                     width="370"/>
@@ -190,22 +191,23 @@
     </main>
 
     <footer class="footer">
-        <div class="container">
-            <a class="logo" href="index.html">WebStudios</a>
-            <address>
-                <ul>
-                    <li>
-                        <a class="address" href="#">695 Park Ave New York, NY 10065 United States</a>
-                    </li>
-                    <li>
-                        <a class="address" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                    <li>
-                        <a class="address" href="tel:+38 096 111 11 11"> +38 096 111 11 11</a>
-                    </li>
-                </ul>
-            </address>
-        </div>
+      <div class="container footer-container">
+        <a class="logo logo-footer" href="index.html">WebStudios
+        </a>
+        <address class="address">
+          <ul class="list-address">
+            <li>
+              <a class="address" href="#">695 Park Ave New York, NY 10065 United States</a>
+            </li>
+            <li>
+              <a class="address" class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="address" class="contacts" href="tel:+38 096 111 11 11"> +38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
     
     </body>

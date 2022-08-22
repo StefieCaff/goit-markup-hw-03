@@ -34,7 +34,8 @@ body{
 .container{
   display:flex;
   min-width:1200px;
-  padding:15px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .nav-container{
@@ -169,7 +170,7 @@ h1{
   justify-content: center;
   height: 95px;
   min-width: 1170px;
-  padding: 94px 215px 100px 215px; 
+  padding: 94px 215px 100px 215px;
 
 }
 
@@ -194,17 +195,22 @@ h1{
 .we-do-container{
   display-flex;
   flex-direction: column;
-  width: 1170px;
+  max-width: 1170px;
   height: 386px;
   margin: 100px 215px 94px 215px;
-
 }
 
-.section-heading,
-.do {
+.section-heading-do,
+.we-do-list {
   display:flex;
   justify-content: center;
   align-items:center;
+}
+
+.we-do-item{
+  margin-top: 50px;
+  margin-bottom:94px; 
+  padding: 15px;
 }
 
 .section-heading{
@@ -213,6 +219,41 @@ h1{
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.team-container{
+  display: flex;
+  flex-direction: column;
+  width: 1600px;
+  height: 648px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-heading-team,
+.team-list{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-item {
+  display:flex;
+  flex-direction: column;
+  margin:15px;
+  width: 270px;
+  height: 368px;
+  background-color: var(--main-background-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+  0px 1px 1px rgba(0, 0, 0, 0.14), 
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.card-footer {
+display:flex;
+flex-direction: column;
+padding: 30px;
 }
 
 .section-team{
@@ -235,6 +276,34 @@ h1{
   letter-spacing: 0.03em;
   color: var(--sub-text-color);
 }
+
+.container-portfolio{
+  display:flex;
+  flex-direction:column;
+  width: 1170px;
+  height: 1360px;
+}
+
+.filters{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 94px 295px 50px 295px;
+}
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  /*margin: 215px 34px 215px 94px;*/
+  gap: 30px;
+  }
+  
+  .projects-item{
+    flex-basis: calc((100% - 60px) / 3);
+
+  
+  }
+ 
 
 .filter-button{
   font-family: Roboto, sans-serif;
@@ -271,6 +340,14 @@ h1{
 
 .footer{
   background-color: #2F303A;
+}
+
+.footer-container{
+  display: flex;
+  width: 1600px;
+  height: 252px;
+  flex-direction: column;
+  margin: 60px 1240px 161px 215px
 }
 
 .address{
