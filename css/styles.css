@@ -307,7 +307,7 @@ padding: 30px;
     width: 370px;
     height: 404px;
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
   }
 
  .footer-projects{
