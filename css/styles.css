@@ -35,7 +35,11 @@ body{
   display:flex;
   min-width:1200px;
   margin: 0 auto;
-  padding: 0 15px;
+}
+
+.section{
+  padding-top:94px;
+  padding-bottom:94px;
 }
 
 .nav-container{
@@ -167,15 +171,18 @@ h1{
 
 .group-container{
   display:flex;
-  justify-content: center;
   height: 95px;
-  min-width: 1170px;
-  padding: 94px 215px 100px 215px;
+  width: 1170px;
+  margin-right: 215px;
+  margin-left: 215px;
 
 }
 
 .group{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:15px;
 }
 
 .group-heading{
@@ -197,7 +204,6 @@ h1{
   flex-direction: column;
   max-width: 1170px;
   height: 386px;
-  margin: 100px 215px 94px 215px;
 }
 
 .section-heading-do,
@@ -208,8 +214,6 @@ h1{
 }
 
 .we-do-item{
-  margin-top: 50px;
-  margin-bottom:94px; 
   padding: 15px;
 }
 
@@ -288,22 +292,28 @@ padding: 30px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 94px 295px 50px 295px;
 }
 
 .projects{
   display: flex;
   flex-wrap: wrap;
-  /*margin: 215px 34px 215px 94px;*/
   gap: 30px;
   }
   
   .projects-item{
+    display:flex;
     flex-basis: calc((100% - 60px) / 3);
-
-  
+    flex-direction: column;
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
   }
- 
+
+ .footer-projects{
+   display: flex;
+   flex-direction: column;
+ }
 
 .filter-button{
   font-family: Roboto, sans-serif;
@@ -346,8 +356,6 @@ padding: 30px;
   display: flex;
   width: 1600px;
   height: 252px;
-  flex-direction: column;
-  margin: 60px 1240px 161px 215px
 }
 
 .address{
